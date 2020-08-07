@@ -1,9 +1,8 @@
 import React from 'react'
 
-
 function Resume (){
     return (
-        <div>
+        <div >
             <h1> Resume page </h1>
         </div>
 
