@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Pdf from '../component/HamaylAfzal.pdf'
 
 function Nav() {
   const navStyle = {
@@ -14,9 +15,8 @@ function Nav() {
         <Link style={navStyle} to="/">
           <li className="Home">Home</li>
         </Link>
-        <Link style={navStyle} to="/Resume">
-          <li className="Resume">Resume</li>
-        </Link>
+        <a className="Resume"  style={navStyle} href = {Pdf} target = "_HamaylAfzal.pdf">Resume</a>
+
         <Link style={navStyle} to="/Page2">
         <li className="Page2">Projects & Involvements</li>
         </Link>
