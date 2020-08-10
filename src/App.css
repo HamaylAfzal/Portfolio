@@ -5,6 +5,7 @@
     height: 23px;
     left: 250px;
     top: 38px;
+    list-style: none;
 
 }
 
@@ -49,6 +50,7 @@
     height: 45px;
     left: 45px;
     top: 24px;
+    list-style: none;
 
 }
 
@@ -76,9 +78,3 @@ Nav {
 
 }
 
-.nav-links {
-    width: 50%;
-    display: flex;
-    align-items: baseline;
-    list-style: none;
-}
