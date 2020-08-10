@@ -12,13 +12,10 @@ function Nav() {
   return (
     <nav>
       <ul className="nav-links">
-        <Link style={navStyle} to="/">
-          <li className="Home">Home</li>
-        </Link>
         <a className="Resume"  style={navStyle} href = {Pdf} target = "_HamaylAfzal.pdf">Resume</a>
 
         <Link style={navStyle} to="/Page2">
-        <li className="Page2">Projects & Involvements</li>
+        <li className="Page2">Projects</li>
         </Link>
 
       </ul>

@@ -1,0 +1,62 @@
+.linkdin {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1050px;
+    top: 9px;
+
+}
+
+.linkdin:hover {
+
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+
+}
+
+.women {
+
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    left: 400px;
+    top: 240px;
+}
+
+.github {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1200px;
+    top: 7px;
+
+}
+
+.github:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.gmail {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1350px;
+    top: 9px;
+
+}
+
+.gmail:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.background {
+    width: 1510px;
+    height: 611px;
+    left: 0px;
+    top: -8px;
+}
