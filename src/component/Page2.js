@@ -12,14 +12,24 @@ import {
   Typography,
 } from "@material-ui/core";
 
+
+import project1 from "../Pictures/project1.png";
+import project2 from "../Pictures/project2.png";
+import project3 from "../Pictures/project3.png";
+import "./picture.css";
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 250,
     margin: 100,
     marginLeft: 250,
+    zIndex: 1000,
+    position: 'relative',
+    // boxShadow: '0 3px 5px 2px rgba(255, 255, 255, 0)',
   },
   media: {
-    height: 200,
+    height: 220,
+    width: 250,
   },
 });
 const navStyle = {
@@ -34,17 +44,20 @@ export default function Project2() {
       <Link style={navStyle} to="/">
         <li className="Page2">Home</li>
       </Link>
-      <Grid container spacing={4} justify="center">
+
+      
+
+      <Grid container item xs={12} spacing={4} justify="center">
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image={"/Pictures/project1.png"}
-              title="Project1"
+              image={project1}
+              title="Project1 Glimpse"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                COVID-19 Statistics
+                COVID-19 Statistics Representation
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Stack: React JS & Material UI
@@ -63,14 +76,47 @@ export default function Project2() {
           </CardActions>
         </Card>
 
-        
-        
+
+
+
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image="/Pictures/project1.png"
-              title="Project1"
+              image={project3}
+              title="Project1 Glimpse"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Portfolio
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Stack: React JS & Material UI
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <a
+              href="https://github.com/HamaylAfzal/Portfolio.git"
+              target="_https://github.com/HamaylAfzal/Portfolio.git"
+            >
+              <Button onclick="" size="small" color="primary">
+                Learn More
+              </Button>
+            </a>
+          </CardActions>
+        </Card>
+
+
+
+
+
+        <Card className={classes.root}>
+          <CardActionArea>
+          <CardMedia
+              className={classes.media}
+              image={project2}
+              title="Project 2 Glimpse"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">

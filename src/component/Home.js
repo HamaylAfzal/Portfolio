@@ -12,7 +12,13 @@ export class Home extends Component {
     return (
       <div>
         <h1 className="intro"> G' Day!!</h1>
-        <h2 className="body"> Bla Bla Bla </h2>
+        <h2 className="body">
+         <p>I am Hamayl Afzal an undergradute student
+        at DePauw University!!</p>
+
+        I am a Web Developer and my hobbies include Martial Arts and Web Designing. Feel free to connect for a cup of coffee!! 
+        
+         </h2>
         
         
         
