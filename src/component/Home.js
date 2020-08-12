@@ -6,9 +6,7 @@ import women from "../Pictures/women.png";
 
 export class Home extends Component {
   render() {
-    const navStyle = {
-      color: "white",
-    };
+  
     return (
       <div>
         <h1 className="intro"> G' Day!!</h1>
@@ -22,13 +20,13 @@ export class Home extends Component {
         
         
         
-        <Link style={navStyle} to="/Page2">
-          <li className="Page2">Projects</li>
+        <Link to="/Page2">
+          <li className="Word">Projects</li>
         </Link>
         
         
         
-        <img src={background} className="background" alt="background" />
+        <img src={background} className="background" alt="background" /> 
         <img src={women} className="women" alt="women" />
         
         

@@ -1,10 +1,7 @@
 .Resume {
-    font-size: 28px;
+    font-size:30px;
+    color: white;
     position: absolute;
-    width: 112px;
-    height: 23px;
-    left: 250px;
-    top: 38px;
     list-style: none;
 
 }
@@ -29,34 +26,16 @@
     color: rgb(255, 255, 255);
 }
 
+
+
+
+
+
+
+
 .Resume:hover {
-    color: red;
-    background-color :grey;
-    margin-left:-20px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom: 20px;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
-}
-
-
-.Page2 {
-    margin-left: 0;
-    font-size: 45px;
-    position: absolute;
-    width: 140px;
-    height: 45px;
-    left: 45px;
-    top: 24px;
-    list-style: none;
-
-}
-
-.Page2:hover {
     color: black;
-    background-color: white;
+    background-color :white;
     margin-left:-20px;
     padding-left:20px;
     padding-right:20px;
@@ -67,17 +46,69 @@
 }
 
 
-
-
-Nav {
-    display: flex;
-    max-width: cover;
-    min-height: 13vh;
-    background: black;
-    size: cover;
+.Word{
+    font-size: 45px;
     color: white;
-    
-
+    position: absolute;
+    list-style: none;
+    top: 30px;
 
 }
 
+
+.Word:hover,
+.Word1:hover {
+    color: black;
+    background-color: white;
+    margin-left:-20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 3px;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+
+
+
+.Nav-bar{
+    position: fixed;
+    width: 100%;
+    background: black;
+    height: 14vh;
+    top: 0;
+    left: 0;
+}
+
+.Nav-BarResume{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 12rem;
+}
+
+
+
+.Nav-BarItems :hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.Nav-BarItems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Nav-BarItems li {
+    padding: 0 0.5rem;
+    padding-left: 4em;
+}
+
+.spacer{
+    flex: 1;
+}

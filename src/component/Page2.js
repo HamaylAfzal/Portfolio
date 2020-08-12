@@ -32,17 +32,15 @@ const useStyles = makeStyles({
     width: 250,
   },
 });
-const navStyle = {
-  color: "white",
-};
+
 
 export default function Project2() {
   const classes = useStyles();
 
   return (
     <div>
-      <Link style={navStyle} to="/">
-        <li className="Page2">Home</li>
+      <Link  to="/">
+        <li className="Word">Home</li>
       </Link>
 
       
